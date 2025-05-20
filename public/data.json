@@ -1,0 +1,179 @@
+[
+  {
+    "title": "U.S. Corporate Tax Filings",
+    "description": "Ensure seamless compliance with U.S. tax laws for corporations with expert filing of Forms 1120C, 1120S, and 1120F.",
+    "image": "service1.png",
+    "whatWeOffer": [
+      "Preparation & filing of Forms 1120C, 1120S, 1120F",
+      "Compliance with U.S. tax laws & IRS regulations",
+      "Tax optimization strategies for businesses"
+    ],
+    "whoNeedsThis": [
+      "U.S.-based corporations",
+      "Indian businesses with U.S. operations",
+      "Multinational companies expanding to the U.S."
+    ],
+    "howItWorks": [
+      "Initial Consultation",
+      "Document Review",
+      "Tax Filing & Compliance",
+      "Post-Filing Support"
+    ],
+    "path": "/corporate-tax"
+  },
+  {
+    "title": "U.S. Personal Tax Filings",
+    "description": "Hassle-free tax preparation and filing of Forms 1040 and 1040NR for U.S. residents and non-residents.",
+    "image": "service2.png",
+    "whatWeOffer": [
+      "Assistance with Form 1040 & 1040NR filings",
+      "Compliance with IRS regulations for expats & non-residents",
+      "Tax planning for individuals with U.S. income"
+    ],
+    "whoNeedsThis": [
+      "U.S. citizens living abroad",
+      "Non-residents with U.S. income",
+      "Foreign nationals with U.S. tax obligations"
+    ],
+    "howItWorks": [
+      "Personal Tax Consultation",
+      "Review of Financial Documents",
+      "Tax Return Preparation & Submission",
+      "IRS Compliance & Advisory"
+    ],
+    "path": "/personal-tax"
+  },
+  {
+    "title": "Gift Tax Returns",
+    "description": "Navigate U.S. gift tax regulations effortlessly with precise Form 706 preparation and filing.",
+    "image": "service3.png",
+    "whatWeOffer": [
+      "Preparation & filing of Form 706 for U.S. gift tax",
+      "Guidance on tax liabilities & exemptions",
+      "Compliance with IRS regulations"
+    ],
+    "whoNeedsThis": [
+      "U.S. citizens & residents making large gifts",
+      "Non-residents gifting U.S.-based assets",
+      "High-net-worth individuals managing wealth transfers"
+    ],
+    "howItWorks": [
+      "Understanding Gift Tax Liabilities",
+      "Document Collection & Review",
+      "Tax Return Filing & Compliance",
+      "Ongoing Wealth Management Support"
+    ],
+    "path": "/return-advisory"
+  },
+  {
+    "title": "FINCEN 114 & FATCA (Form 8938) Filings",
+    "description": "Stay compliant with U.S. foreign asset reporting requirements, ensuring full adherence to FinCEN 114 and FATCA regulations.",
+    "image": "service4.png",
+    "whatWeOffer": [
+      "Compliance assistance for U.S. taxpayers with foreign assets",
+      "Filing of FINCEN 114 & FATCA Form 8938",
+      "Advisory on penalties & reporting obligations"
+    ],
+    "whoNeedsThis": [
+      "U.S. citizens & residents with foreign bank accounts",
+      "Expats with overseas financial interests",
+      "Businesses with global financial operations"
+    ],
+    "howItWorks": [
+      "Assessment of Foreign Asset Holdings",
+      "Determination of Filing Requirements",
+      "Preparation & Submission of Reports",
+      "Ongoing Compliance Support"
+    ],
+    "path": "/fin-advisory"
+  },
+  {
+    "title": "Estate & Succession Planning",
+    "description": "Secure your assets and legacy with strategic estate planning and cross-border succession solutions.",
+    "image": "service5.png",
+    "whatWeOffer": [
+      "Structuring of estate plans to optimize tax efficiency",
+      "Legal & tax advisory for wealth transfers",
+      "U.S. & India cross-border estate planning"
+    ],
+    "whoNeedsThis": [
+      "High-net-worth individuals & families",
+      "Business owners planning succession",
+      "Individuals with cross-border assets"
+    ],
+    "howItWorks": [
+      "Initial Planning & Strategy Development",
+      "Legal & Tax Structuring",
+      "Execution of Estate Plans",
+      "Ongoing Advisory & Adjustments"
+    ],
+    "path": "/estate"
+  },
+  {
+    "title": "Formation of Trusts in India & USA",
+    "description": "Establish trusts in India or the U.S. with structured tax planning to protect and manage wealth effectively.",
+    "image": "service6.png",
+    "whatWeOffer": [
+      "Structuring & establishment of trusts",
+      "Tax-efficient wealth transfer strategies",
+      "Compliance with U.S. & Indian regulations"
+    ],
+    "whoNeedsThis": [
+      "Families seeking intergenerational wealth transfer",
+      "High-net-worth individuals protecting assets",
+      "Business owners securing financial legacies"
+    ],
+    "howItWorks": [
+      "Understanding Client Goals",
+      "Drafting Trust Deeds & Legal Structuring",
+      "Regulatory Compliance & Tax Planning",
+      "Ongoing Trust Administration"
+    ],
+    "path": "/formation-advisory"
+  },
+  {
+    "title": "Cross-Border Tax Advisory Services",
+    "description": "Expert guidance on international tax regulations to optimize tax efficiency across India and the U.S.",
+    "image": "service7.png",
+    "whatWeOffer": [
+      "Advisory on U.S.-India tax regulations",
+      "Tax treaty benefits & optimization strategies",
+      "Compliance for individuals & businesses"
+    ],
+    "whoNeedsThis": [
+      "Individuals earning income in both U.S. & India",
+      "Multinational businesses expanding cross-border",
+      "NRIs with tax liabilities in both countries"
+    ],
+    "howItWorks": [
+      "Tax Analysis & Assessment",
+      "Structuring for Tax Optimization",
+      "Compliance & Filing Support",
+      "Ongoing Advisory & Planning"
+    ],
+    "path": "/tax-advisory"
+  },
+  {
+    "title": "EB-5 Investor Services",
+    "description": "Navigate the EB-5 Immigrant Investor Program with structured investment planning and compliance support.",
+    "image": "service8.png",
+    "whatWeOffer": [
+      "Assistance with EB-5 visa investment & filing",
+      "Tax planning for U.S. residency & compliance",
+      "Structuring investments for maximum tax benefits"
+    ],
+    "whoNeedsThis": [
+      "Investors seeking U.S. residency through EB-5",
+      "High-net-worth individuals planning U.S. relocation",
+      "Families looking for permanent residency pathways"
+    ],
+    "howItWorks": [
+      "Investment Planning & Structuring",
+      "Legal & Financial Due Diligence",
+      "Visa Filing & Tax Compliance",
+      "Post-Investment Advisory"
+    ],
+    "path": "/investor-services"
+  }
+  
+]
