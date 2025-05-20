@@ -21,14 +21,11 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
+    copyPublicDir: true, // Copy public directory to build output
     rollupOptions: {
       output: {
-        manualChunks: undefined,
-      },
-    },
-    // Copy _redirects file to build output
-    copyPublicDir: true,
-    outDir: 'dist',
-    assetsDir: 'assets', // Optional: default is 'assets'
-  },
+        manualChunks: undefined
+      }
+    }
+  }
 })
