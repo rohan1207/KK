@@ -13,6 +13,11 @@ export default defineConfig({
     },
   },
 
+  preview: {
+    port: 5174,
+    strictPort: true,
+  },
+
   server: {
     port: 5174, // Only used for local dev
     historyApiFallback: true, // Enable client-side routing
