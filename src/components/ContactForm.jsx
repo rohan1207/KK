@@ -106,36 +106,41 @@ ${formData.message}
       return;
     }
 
-    const message = 
-`New Contact Form Submission
+    // Clean the phone number - remove spaces and special characters
+    const phoneNumber = "919823149491".replace(/[\s()\-+]/g, "");
 
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-Subject: ${formData.subject === "Others" ? formData.otherSubject : formData.subject}
-Company: ${formData.company === "Others" ? formData.otherCompany : formData.company}
-
-Message:
-${formData.message}`;
+    // Construct message with proper line breaks using unicode line breaks
+    const message = [
+      "New Contact Form Submission\u000A\u000A",
+      "Name: " + formData.name + "\u000A",
+      "Email: " + formData.email + "\u000A",
+      "Phone: " + formData.phone + "\u000A",
+      "Subject: " + (formData.subject === "Others" ? formData.otherSubject : formData.subject) + "\u000A",
+      "Company: " + (formData.company === "Others" ? formData.otherCompany : formData.company) + "\u000A\u000A",
+      "Message:" + "\u000A" + formData.message
+    ].join("");
 
     try {
-      const encodedMessage = message
-        .split('\n')
-        .map(line => encodeURIComponent(line))
-        .join('%0A');
-
-      // For mobile devices, open WhatsApp app directly
-      if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-        window.location.href = `whatsapp://send?phone=919823149491&text=${encodedMessage}`;
+      // For desktop browsers, use web.whatsapp.com
+      if (window.innerWidth >= 768) {
+        const url = "https://web.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+        window.open(url, '_blank');
       } else {
-        // For desktop, open WhatsApp Web
-        window.open(`https://web.whatsapp.com/send?phone=919823149491&text=${encodedMessage}`, '_blank');
+        // For mobile devices, try deep linking first
+        const mobileUrl = "whatsapp://send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+        window.location.href = mobileUrl;
+
+        // Fallback to wa.me if deep link fails
+        setTimeout(() => {
+          const waUrl = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+          window.location.href = waUrl;
+        }, 500);
       }
-      
     } catch (error) {
-      console.error('Error creating WhatsApp link:', error);
-      // Fallback to basic WhatsApp link
-      window.open(`https://wa.me/919823149491`, '_blank');
+      console.error('Error opening WhatsApp:', error);
+      // Final fallback to basic wa.me link
+      const waUrl = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+      window.open(waUrl, '_blank');
     }
   };
 
